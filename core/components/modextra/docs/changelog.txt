@@ -1,0 +1,35 @@
+Changelog for ModExtra.
+
+3.0.0-pl
+==============
+- Requires MODX 3.
+- Requires PHP 7.2+.
+- Refactored to use PSR-4 autoload.
+
+2.0.0-pl
+==============
+- New build script.
+- [#4] Ability to specify the exact repository to install package from.
+- [#6] Renaming script works in any environment.
+- Updated tables resolver.
+- All tables now InnoDB by default.
+- Removed shell renaming script.
+
+1.0.1-beta
+==============
+- PSR-2
+- Requires at least MODX 2.3
+- Disabling "office" resolver will clear its files from built package.
+- Fixed some typos.
+
+1.0.0-beta
+==============
+- Optimized for MODX 2.3
+- Improved processors
+- Disabled plugin and system settings
+- Improved UI
+- Added grid actions
+- Added icons in menu
+- Added search in grid
+- Grid sorting
+- Enable and disable actions
